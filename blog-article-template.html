@@ -3,7 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Blog — Andrew's Terrariums</title>
+  <!-- STEP 1: Change the title below -->
+  <title>Your Article Title — Andrew's Terrariums</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -30,38 +31,72 @@
     </div>
   </header>
 
-  <!-- Page Header -->
-  <div class="blog-hero">
-    <p class="section-label">Stories & guides</p>
-    <h1 class="section-title">From the Garden Bench</h1>
-    <p style="font-size:16px;color:#666;max-width:480px;margin:0 auto;">Notes on nature, terrariums, plants, and the quiet joy of crafting living worlds.</p>
-  </div>
-
-  <!-- Blog Listing -->
   <section>
     <div class="page-content">
       <div class="blog-layout">
 
-        <!-- Article cards -->
         <div class="blog-main">
 
-          <!-- ARTICLE CARD — copy this block to add a new article to the listing -->
-          <a href="blog-hello-from-andrew.html" class="blog-card">
-            <img src="images/Screenshot 2026-05-10 122749.jpg" alt="Terrarium under grow light" class="blog-card-img">
-            <div class="blog-card-body">
-              <p class="blog-meta">May 10, 2025 &nbsp;&bull;&nbsp; Andrew &nbsp;&bull;&nbsp; About me</p>
-              <h2>Hello! Welcome to My Little World of Terrariums</h2>
-              <p>I am Andrew — a young man who simply loves to craft and plant. Terrariums are a life in your hand, and this is where my story begins.</p>
-              <span class="blog-read-more">Read article &rarr;</span>
-            </div>
-          </a>
-          <!-- END ARTICLE CARD -->
+          <a href="blog.html" class="blog-back">&larr; Back to Blog</a>
 
-          <!-- Add new article cards above this line by copying the block above -->
+          <article class="blog-post">
+
+            <!-- STEP 2: Add your hero image (delete these 3 lines if you have no image) -->
+            <img src="images/YOUR-IMAGE.jpg" alt="Describe your image here" style="width:100%;display:block;max-height:460px;object-fit:cover;">
+
+            <div class="blog-post-body">
+
+              <!-- STEP 3: Change date, your name, and category -->
+              <p class="blog-meta">May 2025 &nbsp;&bull;&nbsp; Andrew &nbsp;&bull;&nbsp; Nature</p>
+
+              <!-- STEP 4: Change the article title -->
+              <h2>Your Article Title Here</h2>
+
+              <!-- STEP 5: Write your paragraphs below — copy/paste as many <p> blocks as you need -->
+              <p>Write your first paragraph here. Tell your story naturally, as if you are speaking to a friend.</p>
+
+              <p>Write your second paragraph here.</p>
+
+              <!-- OPTIONAL: Add a photo between paragraphs like this -->
+              <!--
+              <div class="blog-img-wrap">
+                <img src="images/YOUR-SECOND-IMAGE.jpg" alt="Describe it" style="width:100%;display:block;border-radius:4px;">
+              </div>
+              -->
+
+              <p>Write more paragraphs here as needed.</p>
+
+              <!-- STEP 6: Sign off -->
+              <p style="font-style:italic;color:#888;margin-top:24px;">— Andrew</p>
+
+              <!-- OPTIONAL: Add a 2-photo side-by-side gallery like this -->
+              <!--
+              <div style="margin-top:32px;display:grid;grid-template-columns:1fr 1fr;gap:14px;">
+                <div style="border-radius:6px;overflow:hidden;">
+                  <img src="images/PHOTO-LEFT.jpg" alt="Left photo" style="width:100%;display:block;height:240px;object-fit:cover;">
+                </div>
+                <div style="border-radius:6px;overflow:hidden;">
+                  <img src="images/PHOTO-RIGHT.jpg" alt="Right photo" style="width:100%;display:block;height:240px;object-fit:cover;">
+                </div>
+              </div>
+              <p style="font-size:13px;color:#aaa;text-align:center;margin-top:10px;font-style:italic;">Caption for your photos.</p>
+              -->
+
+              <!-- STEP 7: Update the tags to match your article topic -->
+              <div style="margin-top:32px;padding-top:24px;border-top:1px solid var(--border);display:flex;gap:10px;flex-wrap:wrap;">
+                <span class="tag">Terrariums</span>
+                <span class="tag">Nature</span>
+                <span class="tag">Plants</span>
+              </div>
+
+            </div>
+          </article>
+
+          <a href="blog.html" class="blog-back" style="margin-top:8px;margin-bottom:48px;">&larr; Back to Blog</a>
 
         </div>
 
-        <!-- Sidebar -->
+        <!-- Sidebar — update the Articles list when you add new posts -->
         <aside class="blog-sidebar">
 
           <div class="sidebar-widget">
