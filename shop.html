@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shop — Andrew's Terrariums</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="topbar">Handcrafted with love &nbsp;·&nbsp; Every terrarium is made to order</div>
+
+  <header>
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <span class="logo-name">Andrew's Terrariums</span>
+        <span class="logo-tagline">Handcrafted living worlds</span>
+      </a>
+      <nav>
+        <button class="hamburger" aria-label="Toggle menu" onclick="this.nextElementSibling.classList.toggle('open')">
+          <span></span><span></span><span></span>
+        </button>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html" class="active">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Page Header -->
+  <div class="page-header">
+    <p class="section-label">Handcrafted for you</p>
+    <h1>The Shop</h1>
+    <p>Every piece is built by hand, planted with care, and ready to become part of your home.</p>
+  </div>
+
+  <!-- Shop Grid -->
+  <section>
+    <div class="page-content">
+
+      <!-- Filter bar -->
+      <div style="display:flex;gap:12px;flex-wrap:wrap;margin-bottom:40px;padding-bottom:24px;border-bottom:1px solid var(--border);">
+        <span style="font-size:13px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:#888;margin-right:6px;align-self:center;">Filter:</span>
+        <span class="tag" style="cursor:pointer;background:var(--accent-green);color:#fff;border-color:var(--accent-green);">All</span>
+        <span class="tag" style="cursor:pointer;">Closed</span>
+        <span class="tag" style="cursor:pointer;">Open</span>
+        <span class="tag" style="cursor:pointer;">Custom</span>
+        <span class="tag" style="cursor:pointer;">Gifts</span>
+      </div>
+
+      <div class="shop-grid">
+
+        <div class="product-card">
+          <img src="images/Screenshot 2026-05-10 123123.png" alt="Moss Dome Terrarium" style="width:100%;display:block;height:320px;object-fit:cover;">
+          <div class="product-card-body">
+            <h3>Moss Dome — Closed</h3>
+            <p class="price">€38.00</p>
+            <p class="desc">A lush, self-sustaining world under glass. Cushion moss and fern fragments thrive together in this sealed dome terrarium.</p>
+            <a href="contact.html" class="btn" style="width:100%;text-align:center;display:block;padding:11px;font-size:12px;">Enquire to order</a>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="img-placeholder medium">
+            <!--
+              <img src="images/product-geometric.jpg" alt="Geometric Open Terrarium">
+              Recommended: 600 × 480 px, JPEG
+            -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1"><polygon points="12,3 21,21 3,21"/></svg>
+            <span>images/product-geometric.jpg</span>
+          </div>
+          <div class="product-card-body">
+            <h3>Geometric — Open</h3>
+            <p class="price">€45.00</p>
+            <p class="desc">Angular glass vessel housing a curated succulent arrangement. Low maintenance, high style. Each one is planted differently.</p>
+            <a href="contact.html" class="btn" style="width:100%;text-align:center;display:block;padding:11px;font-size:12px;">Enquire to order</a>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="img-placeholder medium">
+            <!--
+              <img src="images/product-tropical-jar.jpg" alt="Tropical Jar Terrarium">
+              Recommended: 600 × 480 px, JPEG
+            -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1"><path d="M8 3h8v4a8 8 0 01-8 0V3z"/><rect x="7" y="7" width="10" height="14" rx="2"/></svg>
+            <span>images/product-tropical-jar.jpg</span>
+          </div>
+          <div class="product-card-body">
+            <h3>Tropical Jar — Closed</h3>
+            <p class="price">€52.00</p>
+            <p class="desc">Tall kilner-style jar packed with tropical ferns, pearlwort and club moss. A miniature jungle sealed inside vintage glass.</p>
+            <a href="contact.html" class="btn" style="width:100%;text-align:center;display:block;padding:11px;font-size:12px;">Enquire to order</a>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="img-placeholder medium">
+            <!--
+              <img src="images/product-desert-dish.jpg" alt="Desert Dish Terrarium">
+              Recommended: 600 × 480 px, JPEG
+            -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1"><ellipse cx="12" cy="17" rx="9" ry="4"/><path d="M3 17V9a9 4 0 0018 0v8"/></svg>
+            <span>images/product-desert-dish.jpg</span>
+          </div>
+          <div class="product-card-body">
+            <h3>Desert Dish — Open</h3>
+            <p class="price">€34.00</p>
+            <p class="desc">Wide shallow dish planted with a mix of cacti and succulents on a bed of sand and fine gravel. Water once a month and enjoy.</p>
+            <a href="contact.html" class="btn" style="width:100%;text-align:center;display:block;padding:11px;font-size:12px;">Enquire to order</a>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="img-placeholder medium">
+            <!--
+              <img src="images/product-gift-set.jpg" alt="Terrarium Gift Set">
+              Recommended: 600 × 480 px, JPEG
+            -->
+            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1"><rect x="3" y="8" width="18" height="13" rx="1"/><path d="M12 8V21M3 12h18M8 8a4 4 0 018 0"/></svg>
+            <span>images/product-gift-set.jpg</span>
+          </div>
+          <div class="product-card-body">
+            <h3>Terrarium Gift Set</h3>
+            <p class="price">€28.00</p>
+            <p class="desc">DIY kit with everything needed to build your own closed terrarium — glass container, substrate layers, moss, fern cutting, and a guide card.</p>
+            <a href="contact.html" class="btn" style="width:100%;text-align:center;display:block;padding:11px;font-size:12px;">Enquire to order</a>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="img-placeholder medium" style="background:linear-gradient(135deg,#e8ddc8 0%,#d4c9b0 100%);">
+            <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="none" viewBox="0 0 24 24" stroke="rgba(90,122,74,0.7)" stroke-width="1"><path d="M12 3l2.5 5 5.5.8-4 3.9.9 5.5L12 16l-4.9 2.2.9-5.5-4-3.9 5.5-.8z"/></svg>
+            <span style="color:var(--accent-green);font-size:13px;">Custom order</span>
+          </div>
+          <div class="product-card-body">
+            <h3>Custom — Your Vision</h3>
+            <p class="price">From €40.00</p>
+            <p class="desc">Tell me your idea — size, style, plants, occasion — and I will build something made just for you. Perfect for gifts and special spaces.</p>
+            <a href="contact.html" class="btn btn-outline" style="width:100%;text-align:center;display:block;padding:11px;font-size:12px;">Get in touch</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Note -->
+      <p style="text-align:center;margin-top:48px;font-size:14px;color:#888;">
+        All terrariums are made to order. Please allow 5–10 working days for preparation and delivery.<br>
+        Have a question? <a href="contact.html" style="color:var(--accent-green);font-weight:700;">Contact me</a>.
+      </p>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <div class="logo-name">Andrew's Terrariums</div>
+        <p>Handcrafted miniature ecosystems, grown with patience and planted with love.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Info</h4>
+        <ul>
+          <li><a href="contact.html">Custom orders</a></li>
+          <li><a href="contact.html">Shipping & returns</a></li>
+          <li><a href="contact.html">Care guides</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2025 Andrew's Terrariums. All rights reserved.</span>
+      <span>Made with 🌿 by hand</span>
+    </div>
+  </footer>
+
+</body>
+</html>
